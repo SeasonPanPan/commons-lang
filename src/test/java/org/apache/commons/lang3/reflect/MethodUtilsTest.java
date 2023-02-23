@@ -1099,7 +1099,7 @@ public class MethodUtilsTest extends AbstractLangTest {
 
     private static class GetMatchingMethodImpl extends AbstractGetMatchingMethod {
         @Override
-        public void testMethod5(Exception exception) {
+        public void testMethod5(final Exception exception) {
         }
     }
 }
